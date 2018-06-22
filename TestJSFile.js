@@ -1,22 +1,6 @@
-<!DOCTYPE html>
-<html>
-<body>
+var msg = 'Hello World'
 
-<h2>JavaScript Objects</h2>
+console.log(msg);
+msg.charAt
 
-<p id="demo"></p>
 
-<script>
-var person = {
-    firstName : "John",
-    lastName  : "Doe",
-    age       : 50,
-    eyeColor  : "blue"
-};
-
-document.getElementById("demo").innerHTML =
-person.firstName + " is " + person.age + " years old.";
-</script>
-
-</body>
-</html>
