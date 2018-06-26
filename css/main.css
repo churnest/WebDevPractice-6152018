@@ -1,56 +1,80 @@
 /*Applies to the whole site*/
-*
-{
-    margin-left:10PX;
-    margin-right:10PX;
+
+* {
+    margin-left: 10PX;
+    margin-right: 10PX;
 }
+
 /*Body*/
-.body
-{
+
+.body {
     background-color: white;
     height: auto;
     background-size: cover;
+}
 
-}
 /*Vertical line properties*/
+
 .vl {
-    border-right: 2px solid black;     
-    display: inline-block;     
-    padding: 2px;    
-    height:8px;
+    border-right: 2px solid black;
+    display: inline-block;
+    padding: 2px;
+    height: 8px;
 }
+
 /*main navigation bar (the next class is for display the text on the same line)*/
-.main-nav
-{
+
+.main-nav {
     list-style: none;
     text-align: right;
     margin-top: 30px;
-    font-size: 12px;
+    font-size: 14px;
     padding: 10px;
 }
+a:hover{
+    color: 	#EF7549;
+}
 
-.main-nav li{
- display: inline;
+a, u {
+    text-decoration: none;
+}
+
+.main-nav li {
+    display: inline;
 }
 
 /*Header*/
-header
-{
-    border-top: 2px solid#989898;
-    border-bottom: 2px solid#989898;
+
+header {
+    border-top: 1.75px solid#989898;
+    border-bottom: 1.75px solid#989898;
 }
 
+
+img {
+    width: 250px;
+    Margin-right: 90%;
+    display: inline-block;
+    /* float: left; */
+}
+
+
+
 /*Main contact info*/
-.contact-info
-{
+
+.contact-info {
     list-style: none;
     text-align: right;
     margin-top: 20px;
-    font-size: 9px;
+    font-size: 11px;
     padding: 10px;
 }
 
-.contact-info li
-{
+.contact-info li {
     display: inline;
+}
+
+/*Main 300X280 images */
+.mainimages{
+    align-content: center;
 }
